@@ -34,6 +34,15 @@ module.exports = {
 }
 ```
 
+## transformation example
+
+[input object](src/__tests__/gatsby-node.js#L18)
+
+[result object](src/__tests__/__snapshots__/gatsby-node.js.snap#L4)
+
+also use [graphql_ui](http://localhost:8000/___graphql), to get idea of how to make the queries
+
+
 ## How to query
 
 You'd be able to query your books like:
