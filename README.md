@@ -7,7 +7,7 @@ Parses docutils files. It also supports attributes
 
 - install
 
-```ssh
+```bash
 npm install verygoodsecurity/gatsby-transformer-docutils
 //or
 yarn add https://github.com/verygoodsecurity/gatsby-transformer-docutils.git
