@@ -9,6 +9,10 @@ Parses docutils files. It also supports attributes
 
 ```ssh
 npm install verygoodsecurity/gatsby-transformer-docutils
+//or
+yarn add https://github.com/verygoodsecurity/gatsby-transformer-docutils.git
+//then compile with
+cd node_modules/gatsby-transformer-docutils && npm install && npm run-script build
 ```
 
 - add the plugin to your gatsby-config.js, in this example the docutils files are located in the `src/data` forlder
