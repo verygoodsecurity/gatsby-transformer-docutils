@@ -5,10 +5,13 @@ Parses docutils files. It also supports attributes
 
 ## How to use
 
-for now 
-- run npm install
-- npm run-script build
-- copy the content of the folder to the node_modules of you gastby site 
+- install
+
+```ssh
+npm install verygoodsecurity/gatsby-transformer-docutils
+```
+
+- add the plugin to your gatsby-config.js, in this example the docutils files are located in the `src/data` forlder
 
 ```javascript
 // In your gatsby-config.js, if the docutils files are on the data folder
