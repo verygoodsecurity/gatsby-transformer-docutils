@@ -1,6 +1,17 @@
 const docutils = require(`./docutils-parser`);
 const _ = require(`lodash`);
 
+function replaceChildren(document) {
+    if (document.children && Array.isArray(document.children)) {
+        document.xmlChildren = document.children;
+        delete document.children
+        for (let child of document.xmlChildren) {
+            replaceChildren(child);
+        }
+    }
+
+}
+
 async function onCreateNode({
                                 node,
                                 actions,
@@ -31,10 +42,7 @@ async function onCreateNode({
     }
     const rawXml = await loadNodeContent(node);
     const document = docutils.parse(rawXml);
-    if (document.children) {
-        document.xmlChildren = document.children;
-        delete document.children
-    }
+    replaceChildren(document);
     const docUtilNode = {
         ...document,
         id: createNodeId(`${node.id} >>> docutils`),

@@ -21,13 +21,14 @@ Array [
             "ids": "masking-and-formatting",
             "names": "masking and formatting",
           },
-          "children": Array [
+          "tag": "section",
+          "xmlChildren": Array [
             Object {
               "attributes": Object {},
-              "children": Array [
+              "tag": "title",
+              "xmlChildren": Array [
                 "Masking and formatting",
               ],
-              "tag": "title",
             },
             Object {
               "attributes": Object {
@@ -35,60 +36,61 @@ Array [
                 "candidates": "{'*': 'vgs-collect/../../_static/img/masking-collect.gif'}",
                 "uri": "vgs-collect/../../_static/img/masking-collect.gif",
               },
-              "children": Array [],
               "tag": "image",
+              "xmlChildren": Array [],
             },
             Object {
               "attributes": Object {
                 "ids": "create-a-custom-mask",
                 "names": "create a custom mask",
               },
-              "children": Array [
+              "tag": "section",
+              "xmlChildren": Array [
                 Object {
                   "attributes": Object {},
-                  "children": Array [
+                  "tag": "title",
+                  "xmlChildren": Array [
                     "Create a custom mask",
                   ],
-                  "tag": "title",
                 },
                 Object {
                   "attributes": Object {},
-                  "children": Array [
+                  "tag": "paragraph",
+                  "xmlChildren": Array [
                     "Input mask refers to a string expression, defined by a developer, that constrains user input. This method is available for those type of the fields:",
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "literal",
+                      "xmlChildren": Array [
                         "text",
                       ],
-                      "tag": "literal",
                     },
                     ",",
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "literal",
+                      "xmlChildren": Array [
                         "textarea",
                       ],
-                      "tag": "literal",
                     },
                     ",",
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "literal",
+                      "xmlChildren": Array [
                         "password",
                       ],
-                      "tag": "literal",
                     },
                     ",",
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "literal",
+                      "xmlChildren": Array [
                         "zip-code",
                       ],
-                      "tag": "literal",
                     },
                     ".",
                   ],
-                  "tag": "paragraph",
                 },
                 Object {
                   "attributes": Object {
@@ -96,166 +98,166 @@ Array [
                     "language": "none",
                     "linenos": "False",
                   },
-                  "children": Array [
+                  "tag": "literal_block",
+                  "xmlChildren": Array [
                     "field.mask(mask, maskChar, formatChar);",
                   ],
-                  "tag": "literal_block",
                 },
                 Object {
                   "attributes": Object {},
-                  "children": Array [
+                  "tag": "line_block",
+                  "xmlChildren": Array [
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "line",
+                      "xmlChildren": Array [
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "literal",
+                          "xmlChildren": Array [
                             "mask",
                           ],
-                          "tag": "literal",
                         },
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "emphasis",
+                          "xmlChildren": Array [
                             "String",
                           ],
-                          "tag": "emphasis",
                         },
                       ],
-                      "tag": "line",
                     },
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "line_block",
+                      "xmlChildren": Array [
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "line",
+                          "xmlChildren": Array [
                             "mask string. Default format characters are:",
                             Object {
                               "attributes": Object {},
-                              "children": Array [
+                              "tag": "literal",
+                              "xmlChildren": Array [
                                 "9: [0-9]",
                               ],
-                              "tag": "literal",
                             },
                             ",",
                             Object {
                               "attributes": Object {},
-                              "children": Array [
+                              "tag": "literal",
+                              "xmlChildren": Array [
                                 "a: [A-Za-z]",
                               ],
-                              "tag": "literal",
                             },
                             ",",
                             Object {
                               "attributes": Object {},
-                              "children": Array [
+                              "tag": "literal",
+                              "xmlChildren": Array [
                                 "*: [A-Za-z0-9]",
                               ],
-                              "tag": "literal",
                             },
                             ".",
                           ],
-                          "tag": "line",
                         },
                       ],
-                      "tag": "line_block",
                     },
                   ],
-                  "tag": "line_block",
                 },
                 Object {
                   "attributes": Object {},
-                  "children": Array [
+                  "tag": "line_block",
+                  "xmlChildren": Array [
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "line",
+                      "xmlChildren": Array [
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "literal",
+                          "xmlChildren": Array [
                             "maskChar",
                           ],
-                          "tag": "literal",
                         },
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "emphasis",
+                          "xmlChildren": Array [
                             "String",
                           ],
-                          "tag": "emphasis",
                         },
                       ],
-                      "tag": "line",
                     },
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "line_block",
+                      "xmlChildren": Array [
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "line",
+                          "xmlChildren": Array [
                             "character to cover unfilled parts of the mask. By default -",
                             Object {
                               "attributes": Object {},
-                              "children": Array [
+                              "tag": "literal",
+                              "xmlChildren": Array [
                                 "null",
                               ],
-                              "tag": "literal",
                             },
                             ".",
                           ],
-                          "tag": "line",
                         },
                       ],
-                      "tag": "line_block",
                     },
                   ],
-                  "tag": "line_block",
                 },
                 Object {
                   "attributes": Object {},
-                  "children": Array [
+                  "tag": "line_block",
+                  "xmlChildren": Array [
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "line",
+                      "xmlChildren": Array [
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "literal",
+                          "xmlChildren": Array [
                             "formatChar",
                           ],
-                          "tag": "literal",
                         },
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "emphasis",
+                          "xmlChildren": Array [
                             "Object",
                           ],
-                          "tag": "emphasis",
                         },
                       ],
-                      "tag": "line",
                     },
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "line_block",
+                      "xmlChildren": Array [
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "line",
+                          "xmlChildren": Array [
                             "defines format characters with characters as keys and corresponding RegExp strings as a value.",
                           ],
-                          "tag": "line",
                         },
                       ],
-                      "tag": "line_block",
                     },
                   ],
-                  "tag": "line_block",
                 },
                 Object {
                   "attributes": Object {},
-                  "children": Array [
+                  "tag": "paragraph",
+                  "xmlChildren": Array [
                     "Example:",
                   ],
-                  "tag": "paragraph",
                 },
                 Object {
                   "attributes": Object {
@@ -263,67 +265,67 @@ Array [
                     "language": "javascript",
                     "linenos": "False",
                   },
-                  "children": Array [
+                  "tag": "literal_block",
+                  "xmlChildren": Array [
                     "f.field(\\"#ssn .field-space\\", {}).mask('999-99-9999', '*');
 
 f.field(\\"#random-mask .field-space\\", {}).mask('XXXXX', null, {'X': '[0-9]'});",
                   ],
-                  "tag": "literal_block",
                 },
               ],
-              "tag": "section",
             },
             Object {
               "attributes": Object {
                 "ids": "define-string-replace-pattern",
                 "names": "define string replace pattern",
               },
-              "children": Array [
+              "tag": "section",
+              "xmlChildren": Array [
                 Object {
                   "attributes": Object {},
-                  "children": Array [
+                  "tag": "title",
+                  "xmlChildren": Array [
                     "Define string replace pattern",
                   ],
-                  "tag": "title",
                 },
                 Object {
                   "attributes": Object {},
-                  "children": Array [
+                  "tag": "paragraph",
+                  "xmlChildren": Array [
                     "Method returns a new string with some or all matches of a pattern replaced by a replacement. This method is available for those type of the fields:",
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "literal",
+                      "xmlChildren": Array [
                         "text",
                       ],
-                      "tag": "literal",
                     },
                     ",",
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "literal",
+                      "xmlChildren": Array [
                         "textarea",
                       ],
-                      "tag": "literal",
                     },
                     ",",
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "literal",
+                      "xmlChildren": Array [
                         "password",
                       ],
-                      "tag": "literal",
                     },
                     ",",
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "literal",
+                      "xmlChildren": Array [
                         "zip-code",
                       ],
-                      "tag": "literal",
                     },
                     ".",
                   ],
-                  "tag": "paragraph",
                 },
                 Object {
                   "attributes": Object {
@@ -331,103 +333,103 @@ f.field(\\"#random-mask .field-space\\", {}).mask('XXXXX', null, {'X': '[0-9]'})
                     "language": "none",
                     "linenos": "False",
                   },
-                  "children": Array [
+                  "tag": "literal_block",
+                  "xmlChildren": Array [
                     "field.replacePattern(regExpString, newSubStr);",
                   ],
-                  "tag": "literal_block",
                 },
                 Object {
                   "attributes": Object {},
-                  "children": Array [
+                  "tag": "line_block",
+                  "xmlChildren": Array [
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "line",
+                      "xmlChildren": Array [
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "literal",
+                          "xmlChildren": Array [
                             "regExpString",
                           ],
-                          "tag": "literal",
                         },
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "emphasis",
+                          "xmlChildren": Array [
                             "String",
                           ],
-                          "tag": "emphasis",
                         },
                       ],
-                      "tag": "line",
                     },
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "line_block",
+                      "xmlChildren": Array [
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "line",
+                          "xmlChildren": Array [
                             "a RegExpobject or literal. The match or matches are replaced with",
                             Object {
                               "attributes": Object {},
-                              "children": Array [
+                              "tag": "title_reference",
+                              "xmlChildren": Array [
                                 "newSubStr",
                               ],
-                              "tag": "title_reference",
                             },
                             ".",
                           ],
-                          "tag": "line",
                         },
                       ],
-                      "tag": "line_block",
                     },
                   ],
-                  "tag": "line_block",
                 },
                 Object {
                   "attributes": Object {},
-                  "children": Array [
+                  "tag": "line_block",
+                  "xmlChildren": Array [
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "line",
+                      "xmlChildren": Array [
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "literal",
+                          "xmlChildren": Array [
                             "newSubStr",
                           ],
-                          "tag": "literal",
                         },
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "emphasis",
+                          "xmlChildren": Array [
                             "String",
                           ],
-                          "tag": "emphasis",
                         },
                       ],
-                      "tag": "line",
                     },
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "line_block",
+                      "xmlChildren": Array [
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "line",
+                          "xmlChildren": Array [
                             "the string that replaces the substring specified by the regExp. By default - empty string.",
                           ],
-                          "tag": "line",
                         },
                       ],
-                      "tag": "line_block",
                     },
                   ],
-                  "tag": "line_block",
                 },
                 Object {
                   "attributes": Object {},
-                  "children": Array [
+                  "tag": "paragraph",
+                  "xmlChildren": Array [
                     "Example:",
                   ],
-                  "tag": "paragraph",
                 },
                 Object {
                   "attributes": Object {
@@ -435,66 +437,66 @@ f.field(\\"#random-mask .field-space\\", {}).mask('XXXXX', null, {'X': '[0-9]'})
                     "language": "javascript",
                     "linenos": "False",
                   },
-                  "children": Array [
+                  "tag": "literal_block",
+                  "xmlChildren": Array [
                     "f.field(\\"#letters-only .field-space\\", {}).replacePattern('/[^a-zA-Z\\\\\\\\s]+/g');
 
 f.field(\\"#numeric-only .field-space\\", {}).replacePattern('/[^\\\\\\\\d]+/g');",
                   ],
-                  "tag": "literal_block",
                 },
               ],
-              "tag": "section",
             },
             Object {
               "attributes": Object {
                 "ids": "control-expiration-date-year-length",
                 "names": "control expiration date year length",
               },
-              "children": Array [
+              "tag": "section",
+              "xmlChildren": Array [
                 Object {
                   "attributes": Object {},
-                  "children": Array [
+                  "tag": "title",
+                  "xmlChildren": Array [
                     "Control expiration date year length",
                   ],
-                  "tag": "title",
                 },
                 Object {
                   "attributes": Object {},
-                  "children": Array [
+                  "tag": "paragraph",
+                  "xmlChildren": Array [
                     "By default expiration date format is -",
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "literal",
+                      "xmlChildren": Array [
                         "MM/YYYY",
                       ],
-                      "tag": "literal",
                     },
                     ". If you want to change the length of the year from 4 to 2 digits, just simply set",
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "literal",
+                      "xmlChildren": Array [
                         "yearLength",
                       ],
-                      "tag": "literal",
                     },
                     "param to",
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "literal",
+                      "xmlChildren": Array [
                         "2",
                       ],
-                      "tag": "literal",
                     },
                     ".",
                   ],
-                  "tag": "paragraph",
                 },
                 Object {
                   "attributes": Object {},
-                  "children": Array [
+                  "tag": "paragraph",
+                  "xmlChildren": Array [
                     "Example:",
                   ],
-                  "tag": "paragraph",
                 },
                 Object {
                   "attributes": Object {
@@ -502,78 +504,76 @@ f.field(\\"#numeric-only .field-space\\", {}).replacePattern('/[^\\\\\\\\d]+/g')
                     "language": "javascript",
                     "linenos": "False",
                   },
-                  "children": Array [
+                  "tag": "literal_block",
+                  "xmlChildren": Array [
                     "f.field(\\"#expiration-date .field-space\\", { yearLength: 2 });",
                   ],
-                  "tag": "literal_block",
                 },
               ],
-              "tag": "section",
             },
             Object {
               "attributes": Object {
                 "ids": "playgrounds",
                 "names": "playgrounds",
               },
-              "children": Array [
+              "tag": "section",
+              "xmlChildren": Array [
                 Object {
                   "attributes": Object {},
-                  "children": Array [
+                  "tag": "title",
+                  "xmlChildren": Array [
                     "Playgrounds",
                   ],
-                  "tag": "title",
                 },
                 Object {
                   "attributes": Object {
                     "bullet": "-",
                   },
-                  "children": Array [
+                  "tag": "bullet_list",
+                  "xmlChildren": Array [
                     Object {
                       "attributes": Object {},
-                      "children": Array [
+                      "tag": "list_item",
+                      "xmlChildren": Array [
                         Object {
                           "attributes": Object {},
-                          "children": Array [
+                          "tag": "paragraph",
+                          "xmlChildren": Array [
                             Object {
                               "attributes": Object {
                                 "format": "html",
                               },
-                              "children": Array [
+                              "tag": "raw",
+                              "xmlChildren": Array [
                                 "<a href=\\"https://verygoodsecurity.github.io/vgs-collect-examples/masked-examples.html\\" target=\\"_blank\\">VGS Collect.js masking and formatting examples page</a>",
                               ],
-                              "tag": "raw",
                             },
                           ],
-                          "tag": "paragraph",
                         },
                       ],
-                      "tag": "list_item",
                     },
                   ],
-                  "tag": "bullet_list",
                 },
                 Object {
                   "attributes": Object {
                     "names": "masking_examples",
                   },
-                  "children": Array [
+                  "tag": "substitution_definition",
+                  "xmlChildren": Array [
                     Object {
                       "attributes": Object {
                         "format": "html",
                       },
-                      "children": Array [
+                      "tag": "raw",
+                      "xmlChildren": Array [
                         "<a href=\\"https://verygoodsecurity.github.io/vgs-collect-examples/masked-examples.html\\" target=\\"_blank\\">VGS Collect.js masking and formatting examples page</a>",
                       ],
-                      "tag": "raw",
                     },
                   ],
-                  "tag": "substitution_definition",
                 },
               ],
-              "tag": "section",
             },
           ],
-          "tag": "section",
         },
       ],
     },
@@ -603,13 +603,14 @@ Array [
               "ids": "masking-and-formatting",
               "names": "masking and formatting",
             },
-            "children": Array [
+            "tag": "section",
+            "xmlChildren": Array [
               Object {
                 "attributes": Object {},
-                "children": Array [
+                "tag": "title",
+                "xmlChildren": Array [
                   "Masking and formatting",
                 ],
-                "tag": "title",
               },
               Object {
                 "attributes": Object {
@@ -617,60 +618,61 @@ Array [
                   "candidates": "{'*': 'vgs-collect/../../_static/img/masking-collect.gif'}",
                   "uri": "vgs-collect/../../_static/img/masking-collect.gif",
                 },
-                "children": Array [],
                 "tag": "image",
+                "xmlChildren": Array [],
               },
               Object {
                 "attributes": Object {
                   "ids": "create-a-custom-mask",
                   "names": "create a custom mask",
                 },
-                "children": Array [
+                "tag": "section",
+                "xmlChildren": Array [
                   Object {
                     "attributes": Object {},
-                    "children": Array [
+                    "tag": "title",
+                    "xmlChildren": Array [
                       "Create a custom mask",
                     ],
-                    "tag": "title",
                   },
                   Object {
                     "attributes": Object {},
-                    "children": Array [
+                    "tag": "paragraph",
+                    "xmlChildren": Array [
                       "Input mask refers to a string expression, defined by a developer, that constrains user input. This method is available for those type of the fields:",
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "literal",
+                        "xmlChildren": Array [
                           "text",
                         ],
-                        "tag": "literal",
                       },
                       ",",
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "literal",
+                        "xmlChildren": Array [
                           "textarea",
                         ],
-                        "tag": "literal",
                       },
                       ",",
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "literal",
+                        "xmlChildren": Array [
                           "password",
                         ],
-                        "tag": "literal",
                       },
                       ",",
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "literal",
+                        "xmlChildren": Array [
                           "zip-code",
                         ],
-                        "tag": "literal",
                       },
                       ".",
                     ],
-                    "tag": "paragraph",
                   },
                   Object {
                     "attributes": Object {
@@ -678,166 +680,166 @@ Array [
                       "language": "none",
                       "linenos": "False",
                     },
-                    "children": Array [
+                    "tag": "literal_block",
+                    "xmlChildren": Array [
                       "field.mask(mask, maskChar, formatChar);",
                     ],
-                    "tag": "literal_block",
                   },
                   Object {
                     "attributes": Object {},
-                    "children": Array [
+                    "tag": "line_block",
+                    "xmlChildren": Array [
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "line",
+                        "xmlChildren": Array [
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "literal",
+                            "xmlChildren": Array [
                               "mask",
                             ],
-                            "tag": "literal",
                           },
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "emphasis",
+                            "xmlChildren": Array [
                               "String",
                             ],
-                            "tag": "emphasis",
                           },
                         ],
-                        "tag": "line",
                       },
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "line_block",
+                        "xmlChildren": Array [
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "line",
+                            "xmlChildren": Array [
                               "mask string. Default format characters are:",
                               Object {
                                 "attributes": Object {},
-                                "children": Array [
+                                "tag": "literal",
+                                "xmlChildren": Array [
                                   "9: [0-9]",
                                 ],
-                                "tag": "literal",
                               },
                               ",",
                               Object {
                                 "attributes": Object {},
-                                "children": Array [
+                                "tag": "literal",
+                                "xmlChildren": Array [
                                   "a: [A-Za-z]",
                                 ],
-                                "tag": "literal",
                               },
                               ",",
                               Object {
                                 "attributes": Object {},
-                                "children": Array [
+                                "tag": "literal",
+                                "xmlChildren": Array [
                                   "*: [A-Za-z0-9]",
                                 ],
-                                "tag": "literal",
                               },
                               ".",
                             ],
-                            "tag": "line",
                           },
                         ],
-                        "tag": "line_block",
                       },
                     ],
-                    "tag": "line_block",
                   },
                   Object {
                     "attributes": Object {},
-                    "children": Array [
+                    "tag": "line_block",
+                    "xmlChildren": Array [
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "line",
+                        "xmlChildren": Array [
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "literal",
+                            "xmlChildren": Array [
                               "maskChar",
                             ],
-                            "tag": "literal",
                           },
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "emphasis",
+                            "xmlChildren": Array [
                               "String",
                             ],
-                            "tag": "emphasis",
                           },
                         ],
-                        "tag": "line",
                       },
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "line_block",
+                        "xmlChildren": Array [
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "line",
+                            "xmlChildren": Array [
                               "character to cover unfilled parts of the mask. By default -",
                               Object {
                                 "attributes": Object {},
-                                "children": Array [
+                                "tag": "literal",
+                                "xmlChildren": Array [
                                   "null",
                                 ],
-                                "tag": "literal",
                               },
                               ".",
                             ],
-                            "tag": "line",
                           },
                         ],
-                        "tag": "line_block",
                       },
                     ],
-                    "tag": "line_block",
                   },
                   Object {
                     "attributes": Object {},
-                    "children": Array [
+                    "tag": "line_block",
+                    "xmlChildren": Array [
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "line",
+                        "xmlChildren": Array [
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "literal",
+                            "xmlChildren": Array [
                               "formatChar",
                             ],
-                            "tag": "literal",
                           },
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "emphasis",
+                            "xmlChildren": Array [
                               "Object",
                             ],
-                            "tag": "emphasis",
                           },
                         ],
-                        "tag": "line",
                       },
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "line_block",
+                        "xmlChildren": Array [
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "line",
+                            "xmlChildren": Array [
                               "defines format characters with characters as keys and corresponding RegExp strings as a value.",
                             ],
-                            "tag": "line",
                           },
                         ],
-                        "tag": "line_block",
                       },
                     ],
-                    "tag": "line_block",
                   },
                   Object {
                     "attributes": Object {},
-                    "children": Array [
+                    "tag": "paragraph",
+                    "xmlChildren": Array [
                       "Example:",
                     ],
-                    "tag": "paragraph",
                   },
                   Object {
                     "attributes": Object {
@@ -845,67 +847,67 @@ Array [
                       "language": "javascript",
                       "linenos": "False",
                     },
-                    "children": Array [
+                    "tag": "literal_block",
+                    "xmlChildren": Array [
                       "f.field(\\"#ssn .field-space\\", {}).mask('999-99-9999', '*');
 
 f.field(\\"#random-mask .field-space\\", {}).mask('XXXXX', null, {'X': '[0-9]'});",
                     ],
-                    "tag": "literal_block",
                   },
                 ],
-                "tag": "section",
               },
               Object {
                 "attributes": Object {
                   "ids": "define-string-replace-pattern",
                   "names": "define string replace pattern",
                 },
-                "children": Array [
+                "tag": "section",
+                "xmlChildren": Array [
                   Object {
                     "attributes": Object {},
-                    "children": Array [
+                    "tag": "title",
+                    "xmlChildren": Array [
                       "Define string replace pattern",
                     ],
-                    "tag": "title",
                   },
                   Object {
                     "attributes": Object {},
-                    "children": Array [
+                    "tag": "paragraph",
+                    "xmlChildren": Array [
                       "Method returns a new string with some or all matches of a pattern replaced by a replacement. This method is available for those type of the fields:",
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "literal",
+                        "xmlChildren": Array [
                           "text",
                         ],
-                        "tag": "literal",
                       },
                       ",",
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "literal",
+                        "xmlChildren": Array [
                           "textarea",
                         ],
-                        "tag": "literal",
                       },
                       ",",
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "literal",
+                        "xmlChildren": Array [
                           "password",
                         ],
-                        "tag": "literal",
                       },
                       ",",
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "literal",
+                        "xmlChildren": Array [
                           "zip-code",
                         ],
-                        "tag": "literal",
                       },
                       ".",
                     ],
-                    "tag": "paragraph",
                   },
                   Object {
                     "attributes": Object {
@@ -913,103 +915,103 @@ f.field(\\"#random-mask .field-space\\", {}).mask('XXXXX', null, {'X': '[0-9]'})
                       "language": "none",
                       "linenos": "False",
                     },
-                    "children": Array [
+                    "tag": "literal_block",
+                    "xmlChildren": Array [
                       "field.replacePattern(regExpString, newSubStr);",
                     ],
-                    "tag": "literal_block",
                   },
                   Object {
                     "attributes": Object {},
-                    "children": Array [
+                    "tag": "line_block",
+                    "xmlChildren": Array [
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "line",
+                        "xmlChildren": Array [
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "literal",
+                            "xmlChildren": Array [
                               "regExpString",
                             ],
-                            "tag": "literal",
                           },
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "emphasis",
+                            "xmlChildren": Array [
                               "String",
                             ],
-                            "tag": "emphasis",
                           },
                         ],
-                        "tag": "line",
                       },
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "line_block",
+                        "xmlChildren": Array [
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "line",
+                            "xmlChildren": Array [
                               "a RegExpobject or literal. The match or matches are replaced with",
                               Object {
                                 "attributes": Object {},
-                                "children": Array [
+                                "tag": "title_reference",
+                                "xmlChildren": Array [
                                   "newSubStr",
                                 ],
-                                "tag": "title_reference",
                               },
                               ".",
                             ],
-                            "tag": "line",
                           },
                         ],
-                        "tag": "line_block",
                       },
                     ],
-                    "tag": "line_block",
                   },
                   Object {
                     "attributes": Object {},
-                    "children": Array [
+                    "tag": "line_block",
+                    "xmlChildren": Array [
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "line",
+                        "xmlChildren": Array [
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "literal",
+                            "xmlChildren": Array [
                               "newSubStr",
                             ],
-                            "tag": "literal",
                           },
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "emphasis",
+                            "xmlChildren": Array [
                               "String",
                             ],
-                            "tag": "emphasis",
                           },
                         ],
-                        "tag": "line",
                       },
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "line_block",
+                        "xmlChildren": Array [
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "line",
+                            "xmlChildren": Array [
                               "the string that replaces the substring specified by the regExp. By default - empty string.",
                             ],
-                            "tag": "line",
                           },
                         ],
-                        "tag": "line_block",
                       },
                     ],
-                    "tag": "line_block",
                   },
                   Object {
                     "attributes": Object {},
-                    "children": Array [
+                    "tag": "paragraph",
+                    "xmlChildren": Array [
                       "Example:",
                     ],
-                    "tag": "paragraph",
                   },
                   Object {
                     "attributes": Object {
@@ -1017,66 +1019,66 @@ f.field(\\"#random-mask .field-space\\", {}).mask('XXXXX', null, {'X': '[0-9]'})
                       "language": "javascript",
                       "linenos": "False",
                     },
-                    "children": Array [
+                    "tag": "literal_block",
+                    "xmlChildren": Array [
                       "f.field(\\"#letters-only .field-space\\", {}).replacePattern('/[^a-zA-Z\\\\\\\\s]+/g');
 
 f.field(\\"#numeric-only .field-space\\", {}).replacePattern('/[^\\\\\\\\d]+/g');",
                     ],
-                    "tag": "literal_block",
                   },
                 ],
-                "tag": "section",
               },
               Object {
                 "attributes": Object {
                   "ids": "control-expiration-date-year-length",
                   "names": "control expiration date year length",
                 },
-                "children": Array [
+                "tag": "section",
+                "xmlChildren": Array [
                   Object {
                     "attributes": Object {},
-                    "children": Array [
+                    "tag": "title",
+                    "xmlChildren": Array [
                       "Control expiration date year length",
                     ],
-                    "tag": "title",
                   },
                   Object {
                     "attributes": Object {},
-                    "children": Array [
+                    "tag": "paragraph",
+                    "xmlChildren": Array [
                       "By default expiration date format is -",
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "literal",
+                        "xmlChildren": Array [
                           "MM/YYYY",
                         ],
-                        "tag": "literal",
                       },
                       ". If you want to change the length of the year from 4 to 2 digits, just simply set",
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "literal",
+                        "xmlChildren": Array [
                           "yearLength",
                         ],
-                        "tag": "literal",
                       },
                       "param to",
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "literal",
+                        "xmlChildren": Array [
                           "2",
                         ],
-                        "tag": "literal",
                       },
                       ".",
                     ],
-                    "tag": "paragraph",
                   },
                   Object {
                     "attributes": Object {},
-                    "children": Array [
+                    "tag": "paragraph",
+                    "xmlChildren": Array [
                       "Example:",
                     ],
-                    "tag": "paragraph",
                   },
                   Object {
                     "attributes": Object {
@@ -1084,78 +1086,76 @@ f.field(\\"#numeric-only .field-space\\", {}).replacePattern('/[^\\\\\\\\d]+/g')
                       "language": "javascript",
                       "linenos": "False",
                     },
-                    "children": Array [
+                    "tag": "literal_block",
+                    "xmlChildren": Array [
                       "f.field(\\"#expiration-date .field-space\\", { yearLength: 2 });",
                     ],
-                    "tag": "literal_block",
                   },
                 ],
-                "tag": "section",
               },
               Object {
                 "attributes": Object {
                   "ids": "playgrounds",
                   "names": "playgrounds",
                 },
-                "children": Array [
+                "tag": "section",
+                "xmlChildren": Array [
                   Object {
                     "attributes": Object {},
-                    "children": Array [
+                    "tag": "title",
+                    "xmlChildren": Array [
                       "Playgrounds",
                     ],
-                    "tag": "title",
                   },
                   Object {
                     "attributes": Object {
                       "bullet": "-",
                     },
-                    "children": Array [
+                    "tag": "bullet_list",
+                    "xmlChildren": Array [
                       Object {
                         "attributes": Object {},
-                        "children": Array [
+                        "tag": "list_item",
+                        "xmlChildren": Array [
                           Object {
                             "attributes": Object {},
-                            "children": Array [
+                            "tag": "paragraph",
+                            "xmlChildren": Array [
                               Object {
                                 "attributes": Object {
                                   "format": "html",
                                 },
-                                "children": Array [
+                                "tag": "raw",
+                                "xmlChildren": Array [
                                   "<a href=\\"https://verygoodsecurity.github.io/vgs-collect-examples/masked-examples.html\\" target=\\"_blank\\">VGS Collect.js masking and formatting examples page</a>",
                                 ],
-                                "tag": "raw",
                               },
                             ],
-                            "tag": "paragraph",
                           },
                         ],
-                        "tag": "list_item",
                       },
                     ],
-                    "tag": "bullet_list",
                   },
                   Object {
                     "attributes": Object {
                       "names": "masking_examples",
                     },
-                    "children": Array [
+                    "tag": "substitution_definition",
+                    "xmlChildren": Array [
                       Object {
                         "attributes": Object {
                           "format": "html",
                         },
-                        "children": Array [
+                        "tag": "raw",
+                        "xmlChildren": Array [
                           "<a href=\\"https://verygoodsecurity.github.io/vgs-collect-examples/masked-examples.html\\" target=\\"_blank\\">VGS Collect.js masking and formatting examples page</a>",
                         ],
-                        "tag": "raw",
                       },
                     ],
-                    "tag": "substitution_definition",
                   },
                 ],
-                "tag": "section",
               },
             ],
-            "tag": "section",
           },
         ],
       },
