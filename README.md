@@ -5,10 +5,17 @@ Parses docutils files. It also supports attributes
 
 ## How to use
 
-for now 
-- run npm install
-- npm run-script build
-- copy the content of the folder to the node_modules of you gastby site 
+- install
+
+```bash
+npm install verygoodsecurity/gatsby-transformer-docutils
+//or
+yarn add https://github.com/verygoodsecurity/gatsby-transformer-docutils.git
+//then compile with
+cd node_modules/gatsby-transformer-docutils && npm install && npm run-script build
+```
+
+- add the plugin to your gatsby-config.js, in this example the docutils files are located in the `src/data` forlder
 
 ```javascript
 // In your gatsby-config.js, if the docutils files are on the data folder
@@ -26,6 +33,15 @@ module.exports = {
     ]
 }
 ```
+
+## transformation example
+
+[input object](src/__tests__/gatsby-node.js#L18)
+
+[result object](src/__tests__/__snapshots__/gatsby-node.js.snap#L4)
+
+also use [graphql_ui](http://localhost:8000/___graphql), to get idea of how to make the queries
+
 
 ## How to query
 
