@@ -7,7 +7,7 @@
     "@babel/runtime": "^7.7.4",
     "bluebird": "^3.7.1",
     "libxmljs": "^0.19.7",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "slash": "^3.0.0",
     "string.prototype.matchall": "^4.0.0"
   },
